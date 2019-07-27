@@ -2,6 +2,7 @@
   "name": "meeting-cost",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tbrisbout.github.io/meeting-cost",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -11,6 +12,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -31,6 +34,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^8.0.7",
+    "gh-pages": "^2.0.1",
     "riteway-jest": "^1.1.0"
   }
 }
