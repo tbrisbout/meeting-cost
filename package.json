@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^8.0.7",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "riteway-jest": "^1.1.0"
   }
 }
